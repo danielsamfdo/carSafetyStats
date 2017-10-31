@@ -1,0 +1,109 @@
+statenum - state definitions,
+casenum- case number identifier(Useful to link multiple databases(hyperlinks)) (TODO: cross reference these)
+vnumber- vehicle number identifier(hyperlinks)
+pnumber - hyperlink
+atmcond - atmospheric condition
+arf - crash related factor
+prf 1,2,3 - person related factor(can infer if driver distracted)?
+dayofweek - maybe infer traffic conditions
+funcsystem - functional system (possibly type of road). maybe infer traffic condition?  
+driverdrowsy - (imply state of driver)
+fhevent - First Harmful Event, can be used to filter only required events
+holiday - Could indirecly imply traffic conditions
+manncol - Manner of collision (Can be useful for fitering only required crashes)
+numfat - number of fatalities (Not very useful)
+pforms - Number of person forms submitted (Not very useful)
+speeding - speeding or not speeding (may imply the velocity of the vehicle)
+age - age of driver
+seatpos - seat position(maybe useful for determining who involved in crash?)
+mhevent - most harmful event (used as filter maybe?)
+vfatcount - number of fatalities in vehicle(possible classification as near crash and crash?)
+numoccs - number of occupants (number of occupents in vehicle, can be used for infering distraction?)
+drf1,2,34 - driver related factor
+crashtype - crashtype(filter: possibly?)
+dridistract - driver distracted by
+alcres - alcohol test result(imply state of driver)
+      **** sober (BAC of zero), had some alcohol (BAC of 0.01-0.09), or was intoxicated (BAC of 0.10 or greater) ***** useful categorical split
+drugres1 - Drug Result(imply state of driver)(Not all values in the codes useful can use it to categrorise into drugged or not drugged). The following implies maybe all      the other values imply drugged. other drugres fields not useful
+      -1  (-1)Blank
+      0 (0)Test Not Given
+      1 (1)Tested, No Drugs Found/Negative
+      95  (95)Not Reported
+      996 (996)Other Drug
+      997 (997)Test For Drug, Results Unknown
+      998 (998)Tested For Drugs, Drugs Found, Type Unknown/Positive
+      999 (999)Uknown If Tested
+injury - injury severity(Useful to know how fatal was the crash)
+ptype - person type(can be used to filter only useful data)(We are typically only concerned with driver)
+druginv - Police reported drug involvement (somewhat useful?)
+alcinv - Police reported alcohol involvement (similar to drug involvement)
+sex - gender of driver
+
+############################################################## Mappping to main feature requirements ####################################
+
+driver_age - age
+gender - sex
+state - driverdrowsy, alcres, drugres123, druginv, alcinv
+  intoxicated - alcres, alcinv
+  tired - driverdrowsy
+  distracted - dridistract
+  drug impairment - drugres123, druginv
+passenger in car - numoccs
+rush hour/not - ****
+physiological characteristics - ****
+driver experience - **** number of previous crashes
+
+----------------------------------------------------------------- More Useful Option 3
+
+Crash
+
+- Atmospheric Condition (1)
+- Atmospheric Condition (2)
+- Crash Related Factor (1)
+- Crash Related Factor (2)
+- Crash Related Factor (3)
+- Day Of Week
+- Drowsy Driver
+- First Harmful Event
+- Functional System
+- Holiday Related
+- Number of Fatalities In Crash 
+
+Occupant
+
+- Age
+- Alcohol Test Result 
+- Drug Test Results (1)
+- Drug Test Results (2)
+- Drug Test Results (3)
+- Drug Test Status
+- Person Related Factor (1)
+- Person Related Factor (2)
+- Person Related Factor (3)
+- Person Type
+- Police Reported Drug Involvement
+- Police-Reported Alcohol Involvement
+- Sex
+
+Vehicle
+
+- Number Of Fatalities In Vehicle (Can this be used for near crash and crash classification)
+- Number of Occupants
+
+Driver
+
+- Commercial Motor Vehicle License Status
+- Compliance with license Restrictions
+- Driver Presence(Maybe a filter)(There is an option of no driver present)
+- Driver Related Factor (1)
+- Driver Related Factor (2)
+- Driver Related Factor (3)
+- Non-Cdl License Status
+- Previous Recorded Crashes(Imply driving history and carefulness of driver?)
+
+Precrash
+
+- Crash Type(Useful for reducing number of rows in table)
+- Critical Event - PreCrash (Category) (Filter only useful ones)
+- Driver Distracted By
+- Roadway Surface Condition (Indirectly imply the time to decelerate?)
