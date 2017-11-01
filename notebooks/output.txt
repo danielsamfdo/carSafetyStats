@@ -1,0 +1,120 @@
+	feature_list	Value of Off By
+0	('sex', 'driverdrowsy')	0.0
+1	('sex', 'age', 'driverdrowsy')	0.590668534649
+2	('sex', 'age', 'prevacc', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	3433.82156186
+3	('sex', 'driverdrowsy', 'police_Related_drug_involvement')	0.515262741186
+4	('age', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement')	105.826406372
+5	('sex', 'alcinvol', 'dridistract')	6.10127428266
+6	('sex', 'age', 'police_Related_drug_involvement', 'alcinvol')	1433.65192193
+7	('sex', 'age', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'dridistract')	272.164936027
+8	('prevacc', 'dridistract')	4.87336673263
+9	('sex', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	2362.24772901
+10	('sex', 'age', 'driverdrowsy', 'police_Related_drug_involvement', 'alcinvol')	1433.65192193
+11	('age', 'prevacc', 'police_Related_drug_involvement', 'dridistract')	169.016774861
+12	('sex', 'age', 'driverdrowsy', 'police_Related_drug_involvement', 'dridistract')	28.7723401667
+13	('police_Related_drug_involvement', 'alcinvol', 'dridistract')	555.829541882
+14	('sex', 'age', 'driverdrowsy', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	2329.47386033
+15	('sex', 'police_Related_drug_involvement')	0.515262741186
+16	('age', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	2607.589206
+17	('sex', 'age', 'prevacc', 'police_Related_drug_involvement', 'alcinvol')	2580.32313066
+18	('sex', 'police_Related_drug_involvement', 'dridistract')	3.28374063239
+19	('age', 'prevacc', 'police_Related_drug_involvement')	105.826406372
+20	('prevacc', 'alcinvol')	10.6221403806
+21	('prevacc', 'police_Related_drug_involvement', 'dridistract')	30.4384975257
+22	('sex', 'age')	0.590668534649
+23	('sex', 'police_Related_drug_involvement', 'alcinvol')	476.886710895
+24	('age', 'driverdrowsy', 'prevacc', 'alcinvol')	103.17631285
+25	('sex', 'age', 'driverdrowsy', 'prevacc', 'alcinvol', 'dridistract')	320.828708049
+26	('sex', 'driverdrowsy', 'prevacc', 'alcinvol')	29.3527347464
+27	('sex', 'age', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	2329.47386033
+28	('age', 'driverdrowsy', 'alcinvol')	5.66657253494
+29	('sex', 'driverdrowsy', 'prevacc')	3.08864458364
+30	('driverdrowsy', 'police_Related_drug_involvement', 'dridistract')	1.42829090967
+31	('sex', 'age', 'prevacc')	32.0790728778
+32	('driverdrowsy', 'prevacc', 'alcinvol', 'dridistract')	32.1687132053
+33	('sex', 'driverdrowsy', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	901.196284647
+34	('age', 'dridistract')	0.515696950741
+35	('sex', 'prevacc', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	2362.24772901
+36	('sex', 'age', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'alcinvol')	2580.32313066
+37	('police_Related_drug_involvement', 'alcinvol')	225.763208132
+38	('age', 'prevacc', 'dridistract')	33.6341223295
+39	('age', 'driverdrowsy', 'prevacc', 'dridistract')	33.6341223295
+40	('age', 'prevacc', 'alcinvol')	103.17631285
+41	('prevacc', 'alcinvol', 'dridistract')	32.1687132053
+42	('sex', 'driverdrowsy', 'alcinvol', 'dridistract')	6.10127428266
+43	('sex', 'age', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement')	162.762417902
+44	('sex', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	901.196284647
+45	('age', 'driverdrowsy')	0.0
+46	('sex', 'age', 'driverdrowsy', 'alcinvol', 'dridistract')	51.1575495361
+47	('driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'alcinvol')	1025.15920873
+48	('sex', 'prevacc', 'alcinvol', 'dridistract')	78.8000112539
+49	('sex', 'age', 'alcinvol', 'dridistract')	51.1575495361
+50	('sex', 'prevacc', 'alcinvol')	29.3527347464
+51	('age', 'prevacc', 'police_Related_drug_involvement', 'alcinvol')	1550.2115185
+52	('driverdrowsy', 'police_Related_drug_involvement', 'alcinvol')	225.763208132
+53	('sex', 'prevacc', 'police_Related_drug_involvement', 'alcinvol')	1511.24894631
+54	('age', 'driverdrowsy', 'dridistract')	0.515696950741
+55	('driverdrowsy', 'police_Related_drug_involvement')	0.0
+56	('sex', 'prevacc', 'police_Related_drug_involvement', 'dridistract')	64.7831761813
+57	('sex', 'age', 'dridistract')	1.57248094416
+58	('sex', 'age', 'police_Related_drug_involvement', 'dridistract')	28.7723401667
+59	('age', 'alcinvol')	5.66657253494
+60	('age', 'driverdrowsy', 'police_Related_drug_involvement')	3.80633431189
+61	('driverdrowsy', 'prevacc', 'alcinvol')	10.6221403806
+62	('prevacc', 'police_Related_drug_involvement', 'alcinvol')	1025.15920873
+63	('sex', 'driverdrowsy', 'police_Related_drug_involvement', 'alcinvol')	476.886710895
+64	('sex', 'age', 'police_Related_drug_involvement')	11.0464270065
+65	('driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'dridistract')	30.4384975257
+66	('driverdrowsy', 'prevacc', 'dridistract')	4.87336673263
+67	('age', 'police_Related_drug_involvement')	3.80633431189
+68	('driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	1788.08742883
+69	('sex', 'alcinvol')	1.01928140759
+70	('sex', 'driverdrowsy', 'prevacc', 'dridistract')	9.48008392592
+71	('age', 'alcinvol', 'dridistract')	18.9415180165
+72	('age', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'alcinvol')	1550.2115185
+73	('sex', 'age', 'alcinvol')	17.8637988194
+74	('sex', 'age', 'prevacc', 'police_Related_drug_involvement', 'dridistract')	272.164936027
+75	('sex', 'prevacc', 'police_Related_drug_involvement')	28.212019719
+76	('age', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	1530.97385489
+77	('sex', 'driverdrowsy', 'police_Related_drug_involvement', 'dridistract')	3.28374063239
+78	('sex', 'age', 'prevacc', 'dridistract')	78.5162392548
+79	('alcinvol', 'dridistract')	2.67880070015
+80	('sex', 'prevacc', 'dridistract')	9.48008392592
+81	('sex', 'age', 'prevacc', 'alcinvol', 'dridistract')	320.828708049
+82	('sex', 'age', 'prevacc', 'police_Related_drug_involvement')	162.762417902
+83	('sex', 'age', 'driverdrowsy', 'alcinvol')	17.8637988194
+84	('driverdrowsy', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	555.829541882
+85	('prevacc', 'police_Related_drug_involvement')	11.3643160077
+86	('driverdrowsy', 'prevacc', 'police_Related_drug_involvement')	11.3643160077
+87	('police_Related_drug_involvement', 'dridistract')	1.42829090967
+88	('sex', 'prevacc')	3.08864458364
+89	('age', 'driverdrowsy', 'police_Related_drug_involvement', 'alcinvol')	724.504458767
+90	('age', 'driverdrowsy', 'prevacc')	18.7463231837
+91	('age', 'driverdrowsy', 'police_Related_drug_involvement', 'dridistract')	10.7858146772
+92	('age', 'prevacc', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	2607.589206
+93	('sex', 'age', 'prevacc', 'alcinvol')	164.528924803
+94	('sex', 'driverdrowsy', 'alcinvol')	1.01928140759
+95	('sex', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement')	28.212019719
+96	('sex', 'age', 'driverdrowsy', 'police_Related_drug_involvement')	11.0464270065
+97	('age', 'police_Related_drug_involvement', 'alcinvol')	724.504458767
+98	('driverdrowsy', 'alcinvol')	0.0
+99	('driverdrowsy', 'alcinvol', 'dridistract')	2.67880070015
+100	('driverdrowsy', 'dridistract')	0.0
+101	('age', 'driverdrowsy', 'prevacc', 'alcinvol', 'dridistract')	177.147709388
+102	('sex', 'age', 'driverdrowsy', 'prevacc', 'dridistract')	78.5162392548
+103	('sex', 'age', 'driverdrowsy', 'dridistract')	1.57248094416
+104	('age', 'prevacc')	18.7463231837
+105	('driverdrowsy', 'prevacc')	0.0
+106	('sex', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'alcinvol')	1511.24894631
+107	('sex', 'dridistract')	0.0213537239886
+108	('sex', 'age', 'driverdrowsy', 'prevacc')	32.0790728778
+109	('sex', 'age', 'driverdrowsy', 'prevacc', 'alcinvol')	164.528924803
+110	('sex', 'driverdrowsy', 'prevacc', 'alcinvol', 'dridistract')	78.8000112539
+111	('age', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'dridistract')	169.016774861
+112	('sex', 'driverdrowsy', 'dridistract')	0.0213537239886
+113	('age', 'prevacc', 'alcinvol', 'dridistract')	177.147709388
+114	('age', 'police_Related_drug_involvement', 'dridistract')	10.7858146772
+115	('prevacc', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	1788.08742883
+116	('sex', 'driverdrowsy', 'prevacc', 'police_Related_drug_involvement', 'dridistract')	64.7831761813
+117	('age', 'driverdrowsy', 'police_Related_drug_involvement', 'alcinvol', 'dridistract')	1530.97385489
+118	('age', 'driverdrowsy', 'alcinvol', 'dridistract')	18.9415180165
