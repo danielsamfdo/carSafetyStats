@@ -13,7 +13,7 @@ class CarBrakerEnv():
         self.SP = self.state['SP']
         state_val = []
         self.ped_x = self.state['ped_x']
-#         assert self.ped_x != 75
+        assert self.ped_x != 75
 #         assert self.state['vel'] != 5
         self.ped_y = self.state['ped_y']
         self.end_pos_x = 125.0
